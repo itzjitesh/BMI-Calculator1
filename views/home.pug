@@ -1,0 +1,48 @@
+//- Now to use the basic template which we have written in base.pug in this file we can use the below syntax:
+extends base.pug
+
+block scripts
+    script(src='/views/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    
+    section#intro
+        div Welcome to Jitesh's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#mission 
+        h2 OUR MISSIONS 
+        div.card 
+            h3  Dance Mania
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/bak5.jpg")
+                div.card-content 
+                    p Having Dance Mania, Come Visit Us.
+
+        div.card 
+            h3  Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/bak6.jpg")
+                div.card-content 
+                    p Born to Dance, You are at Right Place.
+        div.card 
+            h3  Dance Expert
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/bak7.jpg")
+                div.card-content 
+                    p We have Answer for Your Every Questions.
+
+    section#sponsors 
+        h2 OUR SPONSORS 
+        div#spon
+            img(src="/static/img/logo3.jpg", alt="Sponsors Image" class="spimage")
+            img(src="/static/img/pin.jpg", alt="Sponsors Image" class="spimage")
+            img(src="/static/img/skype.jpg", alt="Sponsors Image" class="spimage")
+            img(src="/static/img/udemy.jpg", alt="Sponsors Image" class="spimage")

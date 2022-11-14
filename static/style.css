@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 7px;
+    /* margin-right: 23px; */
+}
+.line{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+}
+ img{ 
+    /*  filter: invert(1);   */
+     height: 42px;
+    width: 42px; 
+} 
+
+#navbar{
+    /* border: 2px solid aqua; */
+     background-color: rgb(240, 58, 58);
+     /* width: 100vw; */
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+    /* justify-content: center; */
+}
+#navbar ul li{
+    padding: 7px 30px;
+    list-style-type: none;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar li a:hover{
+    color: grey;
+}
+
+
+#intro{
+    /* border: 2px solid red; */
+    background-color: burlywood;
+    /* height: 40vh; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    /* justify-content: center; */
+    font-size: 45px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/img/bg111.jpg");
+    height: 425px;
+    
+}
+.small{
+    font-size: 34px;
+}
+#mission{
+    background-color: white;
+    height: 40vh;
+    
+}
+/* #mission.card{
+    display: flex;
+    flex-direction: row;
+
+} */
+h2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 200px;
+    width: 30%;
+    margin: 9px 4px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 31px;
+}
+.card h3{
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.card-box{
+    display: inline-block;
+}
+.card-img img{
+    height: 149px;
+    width: 339px;
+    padding: 3px 23px;
+    margin-left: 27px;
+
+}
+.card-content{
+    margin: 1px 60px;
+}
+
+#sponsors{
+    /* display: flex; */
+    background-color: rgb(235, 151, 151);
+    height: 40vh;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+#sponsors h2{
+    padding: 8px;
+    padding-top: 23px;
+    /* margin: 0px auto;     */
+}
+#spon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spimage{
+    /* padding: 39px; */
+    margin: 20px 85px;
+    height: 140px;
+    width: 120px;
+}
+
+#footer{
+    /* border: 2px solid blackæ; */
+    background-color: black;
+    height: 7vh;
+    /* width: 100vw; */
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
